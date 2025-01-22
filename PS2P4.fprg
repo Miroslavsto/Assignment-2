@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PS2P4"/>
+        <attribute name="authors" value="miros"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-01-21 07:02:21 PM"/>
+        <attribute name="created" value="bWlyb3M7TEFQVE9QLTZUNkI5NVM2OzIwMjUtMDEtMjE7MDY6NTU6MTkgUE07Mjg1MQ=="/>
+        <attribute name="edited" value="bWlyb3M7TEFQVE9QLTZUNkI5NVM2OzIwMjUtMDEtMjE7MDc6MDI6MjEgUE07MTsyOTQ1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lastname" type="String" array="False" size=""/>
+            <declare name="credits" type="Integer" array="False" size=""/>
+            <declare name="tuition" type="Integer" array="False" size=""/>
+            <input variable="lastname"/>
+            <input variable="credits"/>
+            <assign variable="tuition" expression="credits * 250 + 100"/>
+            <output expression="&quot;tuition is: &quot; &amp;tuition" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

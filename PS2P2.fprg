@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PS2P2"/>
+        <attribute name="authors" value="miros"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-01-21 06:30:01 PM"/>
+        <attribute name="created" value="bWlyb3M7TEFQVE9QLTZUNkI5NVM2OzIwMjUtMDEtMjE7MDU6NTc6MDEgUE07Mjg0Mw=="/>
+        <attribute name="edited" value="bWlyb3M7TEFQVE9QLTZUNkI5NVM2OzIwMjUtMDEtMjE7MDY6MzA6MDEgUE07MTsyOTQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="hours" type="Integer" array="False" size=""/>
+            <declare name="rate" type="Integer" array="False" size=""/>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <input variable="name"/>
+            <input variable="hours"/>
+            <input variable="rate"/>
+            <assign variable="total" expression="hours * rate"/>
+            <output expression="&quot;the paycheck amount for &quot; &amp;name &amp;&quot; is $&quot; &amp;total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
